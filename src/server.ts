@@ -1,9 +1,16 @@
-import express, { response } from 'express'
+import express from 'express'
+
+import UserController from '@controllers/UserController'
 
 const app = express()
 
 app.get('/', (req, res) => {
-    return res.json({Data: '28/06/2020'})
+    const userController = new UserController();
+    const user = userController.getUser()
+    return res.json({
+        ...user,
+        Data: '28/06/2020'
+    })
 })
 
 app.listen(3000)

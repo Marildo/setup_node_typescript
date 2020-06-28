@@ -1,11 +1,11 @@
-import UserController from "@controllers/UserController"
+import UserController from '@controllers/UserController'
 
-test('it should be OK', () => {
-    const ctrl = new UserController()
-    const user = ctrl.getUser()
-    expect(user.name).toEqual('MCesar')
+test('t should be OK', () => {
+  const ctrl = new UserController()
+  const user = ctrl.getUser()
+  expect(user.name).toEqual('MCesar')
 })
 
 test('it should be fall', () => {
-    expect(2).toEqual(3)
+  expect(2).toEqual(3)
 })

@@ -1,0 +1,17 @@
+{
+  "prettier.semi": false,
+
+  "javascript.format.semicolons": "remove",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+
+  "typescript.format.semicolons": "remove",
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+
+  "eslint.format.enable": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

@@ -4,8 +4,8 @@
   "description": "Setup basico para prjetos com node e typeScript",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev -r tsconfig-paths/register --ignore-watch node_modules src/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",    
+    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts"
   },
   "repository": {
     "type": "git",

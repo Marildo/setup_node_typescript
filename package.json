@@ -4,7 +4,8 @@
   "description": "Setup basico para prjetos com node e typeScript",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev -r tsconfig-paths/register --ignore-watch node_modules src/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/Marildo/setup_node_typescript#readme",
   "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.49",
+    "tsconfig-paths": "^3.9.0",
     "typescript": "^3.9.5"
   },
   "dependencies": {

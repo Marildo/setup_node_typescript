@@ -9,3 +9,5 @@
 
 - $ npm install ts-node-dev --save-dev 
 - $ npm install tsconfig-paths --save-dev 
+
+- $npm install --save-dev @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript babel-plugin-module-resolver

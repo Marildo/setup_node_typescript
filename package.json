@@ -1,0 +1,22 @@
+{
+  "name": "setup_node_typescript",
+  "version": "1.0.0",
+  "description": "Setup basico para prjetos com node e typeScript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marildo/setup_node_typescript.git"
+  },
+  "author": "MCesar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marildo/setup_node_typescript/issues"
+  },
+  "homepage": "https://github.com/Marildo/setup_node_typescript#readme",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}

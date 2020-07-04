@@ -1,27 +1,56 @@
-# setup_node_typescript
+# Setup para app node e typescript
 
-- \$ npm init
-- \$ npm install typescript -g
-- \$ tsc --init
-- \$ tsc : compilar
+### Start projeto
 
-- \$ npm install express @types/express
+```sh
+$ npm init
+$ npm install typescript -g
+$ npm install express @types/express
+$ tsc --init
+$ tsc
+```
 
-\*Compilando com ts-node
+---
 
-- \$ npm install ts-node-dev --save-dev
-- \$ npm install tsconfig-paths --save-dev
+### Compilando com ts-node
 
-\*Build com babel
+```sh
+$ npm install ts-node-dev --save-dev
+$ npm install tsconfig-paths --save-dev
+```
 
-- \$npm install --save-dev @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript babel-plugin-module-resolver
+> Configurar tsconfig.json [outdir, rootdir, typeRoots, baseUrl, paths, include]
 
-\*Testes com Jest
+---
 
-- \$ npm install --save-dev jest @types/jest ts-jest
-- \$ npx jest --init
+### Build com babel
 
-* Eslint
+```sh
+$ npm install --save-dev @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript babel-plugin-module-resolver
+```
 
-- \$ npm install --save-dev eslint
-- \$ npx eslint --init
+> criar babel.config.js
+
+---
+
+### Testes com Jest
+
+```sh
+$ npm install jest @types/jest  ts-jest --save-dev
+$ npx jest --init
+```
+
+> Configurar jest.config.js [preset, moduleNameMapper]
+
+---
+
+### Eslint
+
+```sh
+$ npm install --save-dev eslint
+$ npx eslint --init
+```
+
+> Configurar eslinttrc.json ../vsconde/setting.json
+
+**Referencia: https://www.youtube.com/watch?v=rCeGfFk-uCk**

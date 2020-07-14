@@ -39,7 +39,7 @@ $ npm install  @babel/cli @babel/core @babel/node @babel/preset-env @babel/prese
 ### Testes com Jest
 
 ```sh
-$ npm install jest ts-jest @types/jest -D
+$ npm install jest ts-jest supertest @types/jest @types/supertest -D
 $ npx jest --init
 ```
 

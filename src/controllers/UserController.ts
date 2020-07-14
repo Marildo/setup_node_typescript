@@ -6,7 +6,6 @@ class UserController {
     const user = new User()
     user.name = 'MCesar'
     user.email = 'marildocesar@hotmail.com'
-
     res.json(user)
   }
 }

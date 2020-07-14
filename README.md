@@ -4,9 +4,11 @@
 
 ```sh
 $ npm init
-$ npm install typescript -g
-$ npm install express @types/express
+$ npm install typescript @types/typescript @types/node -D
 $ tsc --init
+
+$ npm install express
+$ npm install @types/express -D
 $ tsc
 ```
 
@@ -15,8 +17,8 @@ $ tsc
 ### Compilando com ts-node
 
 ```sh
-$ npm install ts-node-dev --save-dev
-$ npm install tsconfig-paths --save-dev
+$ npm install ts-node-dev -D
+$ npm install tsconfig-paths -D
 ```
 
 > Configurar tsconfig.json [outdir, rootdir, typeRoots, baseUrl, paths, include]
@@ -26,7 +28,8 @@ $ npm install tsconfig-paths --save-dev
 ### Build com babel
 
 ```sh
-$ npm install --save-dev @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript babel-plugin-module-resolver
+$ npm install  @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript
+@babel/plugin-proposal-decorators babel-plugin-module-resolver  -D
 ```
 
 > criar babel.config.js
@@ -36,7 +39,7 @@ $ npm install --save-dev @babel/cli @babel/core @babel/node @babel/preset-env @b
 ### Testes com Jest
 
 ```sh
-$ npm install jest @types/jest  ts-jest --save-dev
+$ npm install jest ts-jest @types/jest -D
 $ npx jest --init
 ```
 
@@ -47,7 +50,7 @@ $ npx jest --init
 ### Eslint
 
 ```sh
-$ npm install --save-dev eslint
+$ npm install eslint -D
 $ npx eslint --init
 ```
 

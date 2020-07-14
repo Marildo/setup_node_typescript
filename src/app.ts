@@ -1,6 +1,9 @@
 import express from 'express'
 import cors from 'cors'
 
+import indexRoutes from './routes'
+import userRoutes from './routes/users'
+
 class AppController {
   public express: express.Application
 
@@ -16,9 +19,8 @@ class AppController {
   }
 
   private routes(): void {
-    this.express.get('/', (req, res) => {
-      return res.send('Helo World')
-    })
+    this.express.use(indexRoutes)
+    this.express.use(userRoutes)
   }
 }
 

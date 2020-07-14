@@ -1,12 +1,14 @@
 import { User } from '@models/User'
+import { Request, Response } from 'express'
 
 class UserController {
-  public getUser () {
+  public users(req: Request, res: Response) {
     const user = new User()
     user.name = 'MCesar'
     user.email = 'marildocesar@hotmail.com'
-    return user
+
+    res.json(user)
   }
 }
 
-export default UserController
+export default new UserController()

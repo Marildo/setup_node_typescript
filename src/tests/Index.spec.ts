@@ -7,5 +7,5 @@ test('t should be OK', () => {
 })
 
 test('it should be fall', () => {
-  expect(2).toEqual(3)
+  expect(2).not.toEqual(3)
 })

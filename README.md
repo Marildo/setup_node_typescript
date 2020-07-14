@@ -7,8 +7,8 @@ $ npm init
 $ npm install typescript @types/typescript @types/node -D
 $ tsc --init
 
-$ npm install express
-$ npm install @types/express -D
+$ npm install express cors
+$ npm install @types/express  @types/cors -D
 $ tsc
 ```
 

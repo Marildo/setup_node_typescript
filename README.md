@@ -56,4 +56,12 @@ $ npx eslint --init
 
 > Configurar eslinttrc.json ../vsconde/setting.json
 
+### Variaveis de ambiente com dotenv
+
+```sh
+$ npm install dotenv
+```
+
+> Criar arquivo .env e carregar na inicializacao
+
 **Referencia: https://www.youtube.com/watch?v=rCeGfFk-uCk**

@@ -5,11 +5,11 @@
 ```sh
 $ npm init
 $ npm install typescript @types/typescript @types/node -D
-$ tsc --init
+$ npx tsc --init
 
 $ npm install express cors
 $ npm install @types/express  @types/cors -D
-$ tsc
+$ npx tsc
 ```
 
 ---
